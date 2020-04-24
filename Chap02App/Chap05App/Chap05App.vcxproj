@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{A2C1D204-EB59-4A6B-9822-C47993468328}</ProjectGuid>
-    <RootNamespace>Chap04App</RootNamespace>
+    <ProjectGuid>{C6B38FB2-CD85-4C49-86EA-1BB684D4837A}</ProjectGuid>
+    <RootNamespace>Chap05App</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,10 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="cursor.h" />
+    <ClInclude Include="..\Chap04App\cursor.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SolarSystem.cpp" />
+    <ClCompile Include="TimePlusPlus.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
