@@ -9,4 +9,5 @@ int main() {
 	i = static_cast<int>(d);
 	//pi = static_cast<int*>(str); --¿¡·¯
 	//printf("%d %x\n", *pi, *pi);
+
 }
